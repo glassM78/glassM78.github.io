@@ -60,13 +60,13 @@ position: 董事长
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="https://img2.imgtp.com/2024/05/30/8E8joqR1.jpg" alt="First slide">
+            <img src="assets/images/小心1.jpg" alt="First slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/q0xp0XbD.jpg" alt="Second slide">
+            <img src="assets/images/小心2.jpg" alt="Second slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/mHKG68P8.jpg" alt="Third slide">
+            <img src="assets/images/小心3.jpg" alt="Third slide">
         </div>
     </div>
     <!-- 轮播（Carousel）导航 -->
