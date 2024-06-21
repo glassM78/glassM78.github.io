@@ -59,13 +59,13 @@ position: 技术总监
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="https://img2.imgtp.com/2024/05/30/NDlsy8Io.jpg" alt="First slide">
+            <img src="assets/images/开心1.jpg" alt="First slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/RUBGLqgb.jpg" alt="Second slide">
+            <img src="assets/images/开心2.jpg" alt="Second slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/FUvQd5OP.jpg" alt="Third slide">
+            <img src="assets/images/开心3.jpg" alt="Third slide">
         </div>
     </div>
     <!-- 轮播（Carousel）导航 -->
