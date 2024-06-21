@@ -1,0 +1,47 @@
+collections:
+  productors:
+    output: true
+  cultures:
+    output: true
+  staffs:
+    output: true
+  employments:
+    output: true
+  jobs:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "productors"
+    values:
+      layout: "productor"
+  - scope:
+      path: ""
+      type: "cultures"
+    values:
+      layout: "culture"
+  - scope:
+      path: ""
+      type: "staffs"
+    values:
+      layout: "staff"
+  - scope:
+      path: ""
+      type: "employments"
+    values:
+      layout: "employment"     
+  - scope:
+      path: ""
+      type: "jobs"
+    values:
+      layout: "job"  
+  - scope:
+      path: ""
+    values:
+      layout: "default"
