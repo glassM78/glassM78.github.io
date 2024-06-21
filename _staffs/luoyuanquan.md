@@ -59,13 +59,13 @@ position: 人事总监
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="https://img2.imgtp.com/2024/05/30/20uVK2jz.jpg" alt="First slide">
+            <img src="assets/images/甜心1.jpg" alt="First slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/sZ1ll97g.jpg" alt="Second slide">
+            <img src="assets/images/甜心2.jpg" alt="Second slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/yBrf68vs.jpg" alt="Third slide">
+            <img src="assets/images/甜心3.jpg" alt="Third slide">
         </div>
     </div>
     <!-- 轮播（Carousel）导航 -->
