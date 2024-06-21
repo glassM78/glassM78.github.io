@@ -107,7 +107,7 @@ staff: Yang zuozuo
                 <tr>
                     <td>搞笑漫画</td>
                     <td>
-                        <img src="[assets/images/狗.jpg](https://picture.gptkong.com/20240621/1632424b9fa3f345fea17574f2c8cc7479.jpg)" alt="搞笑" class="img-responsive">
+                        <img src="https://picture.gptkong.com/20240621/1632424b9fa3f345fea17574f2c8cc7479.jpg" alt="搞笑" class="img-responsive">
                     </td>
                 </tr>
                 <tr>
