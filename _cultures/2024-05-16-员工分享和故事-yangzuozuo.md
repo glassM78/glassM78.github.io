@@ -2,6 +2,7 @@
 layout: culture
 staff: Yang zuozuo
 ---
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
