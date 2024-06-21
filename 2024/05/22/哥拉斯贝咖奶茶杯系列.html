@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>哥拉斯贝咖奶茶杯系列</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <head>  
+	<meta charset="utf-8">  
+	<title>Bootstrap 实例 - 自定义导航栏</title>  
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>  
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+	<style>  
+		/* 自定义当前页面链接的样式 */  
+		.navbar-nav .current {  
+			background-color: #e7e7e7; /* 或您想要的任何颜色 */  
+			color: #333; /* 或您想要的任何字体颜色 */  
+		}  
+	</style>  
+</head>  
+<body>  
+  
+<nav class="navbar navbar-default" role="navigation">  
+	<div class="container-fluid">  
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
+			<ul class="nav navbar-nav">  
+				  
+				<li >  
+					<a href="/" >哥拉斯主页</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/index1.html" >企业简介</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/index2.html" >联系方式</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/chanpin.html" >产品介绍</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/changjia.html" >厂家</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/wenhua.html" >企业文化</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/yuangong.html" >员工</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/zhaopin.html" >招聘信息</a>  
+				</li>  
+				  
+				<li >  
+					<a href="/gangwei.html" >岗位</a>  
+				</li>  
+				  
+			</ul>  
+		</div>  
+	</div>  
+</nav>  
+  
+</body>  
+
+    <h1>哥拉斯贝咖奶茶杯系列</h1>
+
+<p>
+  22 May 2024
+  
+  
+    - <a href="/productors/%E5%A5%87%E8%BF%B9%E4%B9%8B%E6%9D%AF%E7%8E%BB%E7%92%83%E5%8E%82.html">奇迹之杯玻璃厂</a>
+  
+</p>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>产品展示</title>
+<link rel="stylesheet" href="path/to/bootstrap.css" /><!-- 确保替换为Bootstrap CSS文件的真实路径 -->
+<style>
+            .carousel-inner {
+                display: flex;
+                justify-content: center; /* 水平居中 */
+                align-items: center; /* 垂直居中 */
+                height: 600px; /* 按需设置一个恰当的固定高度 */
+        }
+
+            .carousel-inner > .item {
+                flex: 0 0 auto; /* 防止项目伸缩，保持原始大小 */
+                width: 100%; /* 使.carousel-item的宽度充满父容器宽度 */
+                height: 100%; /* 使.carousel-item的高度充满父容器高度 */
+            }
+
+            .carousel-inner > .item > img, 
+            .carousel-inner > .item > a > img {
+                max-width: 100%; /* 最大宽度100% */
+                max-height: 100%; /* 最大高度100% */
+                margin: auto; /* 自动外边距居中 */
+                display: block; /* 设置为块级元素 */
+            }
+
+        /* 其他样式保持不变 */
+            .product-features {
+                list-style: none;
+                padding: 0;
+                text-align: center;
+            }
+            .product-features li {
+                background: #f9f9f9;
+                margin-bottom: 5px;
+                padding: 10px;
+                border-radius: 5px;
+                display: inline-block;
+                margin-right: 10px;
+            }
+    </style>
+</head>
+<body>
+
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="https://cdn.pixabay.com/photo/2018/02/05/03/20/drink-3131322_1280.jpg" alt="First slide" />
+        </div>
+        <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2019/11/28/06/26/milk-tea-4658495_1280.jpg" alt="Second slide" />
+    </div>
+
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+<ul>
+    <li>产品外观：
+哥拉斯贝咖奶茶杯以其简约时尚的外观设计，给人一种清新雅致的感觉。杯身造型优美，线条流畅，500ml的大容量设计，满足您对于奶茶的充足需求。采用透明玻璃材质，清晰展现出奶茶的色泽，增添视觉享受。
+</li>
+    <li>产品品质：
+我们以严格的质量控制标准，确保哥拉斯贝咖奶茶杯的每一款产品都达到高品质水准。选用耐热玻璃材料制成，安全耐用，耐热性强，可承受高温水的冲击，确保您的奶茶品质不受影响。</li>
+    <li>产品价格：
+哥拉斯公司一直以来致力于为广大消费者提供性价比超高的产品。我们的贝咖奶茶杯系列不仅外观时尚，品质过硬，而且价格亲民，让您在享受高品质奶茶的同时，不用为高昂的价格担忧。</li>
+</ul>
+
+<script src="path/to/jquery.min.js"></script><!-- 确保替换为jQuery文件的真实路径 -->
+<script src="path/to/bootstrap.js"></script><!-- 确保替换为Bootstrap JS文件的真实路径 -->
+</div></body></html>
+
+  </body>
+</html>
