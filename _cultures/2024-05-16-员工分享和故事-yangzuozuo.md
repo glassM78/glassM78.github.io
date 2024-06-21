@@ -80,7 +80,7 @@ staff: Yang zuozuo
                 <tr>
                     <td>照片</td>
                     <td>
-                        <img src="https://img2.imgtp.com/2024/05/31/9nOIgrcC.jpg" alt="杨左左" class="ceo-photo img-responsive">
+                        <img src="https://picture.gptkong.com/20240621/16430580828bf34b0fa08ec0188d62bfa2.jpg" alt="杨左左" class="ceo-photo img-responsive">
                     </td>
                 </tr>
                 <tr>
