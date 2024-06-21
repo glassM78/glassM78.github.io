@@ -59,13 +59,13 @@ position: 执行总裁
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="https://img2.imgtp.com/2024/05/30/mmNPcRuD.jpg" alt="First slide">
+            <img src="assets/images/粗心1.jpg" alt="First slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/z3of6hyA.jpg" alt="Second slide">
+            <img src="assets/images/粗心2.jpg" alt="Second slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/gEd6zdzM.jpg" alt="Third slide">
+            <img src="assets/images/粗心3.jpg" alt="Third slide">
         </div>
     </div>
     <!-- 轮播（Carousel）导航 -->
