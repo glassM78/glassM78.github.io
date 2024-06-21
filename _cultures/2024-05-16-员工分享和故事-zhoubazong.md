@@ -63,13 +63,13 @@ staff: zhoubazong
         <h1>周霸总的团队会议习惯</h1>
         <ul class="list-group">
             <li class="list-group-item">
-                <img src="assets/images/霸总形象.jpg" alt="周霸总" class="ceo-photo img-responsive">
+                <img src="https://img.picui.cn/free/2024/06/06/666159eb994e9.jpg" alt="周霸总" class="ceo-photo img-responsive">
             </li>
             <li class="list-group-item">
                 <p>周霸总还有一个特别的习惯，那就是在每周的团队例会上，她都会准备一个有趣的技术挑战题目，让大家在轻松愉快的氛围中锻炼思维能力和解决问题的能力。这种寓教于乐的方式不仅提高了团队的凝聚力，也激发了大家的工作热情。</p>
             </li>
             <li class="list-group-item">
-                <img src="assets/images/会议图片.jpg" alt="团队会议" class="team-photo img-responsive">
+                <img src="https://img.picui.cn/free/2024/06/06/666159fc5afd7.jpg" alt="团队会议" class="team-photo img-responsive">
             </li>
             <li class="list-group-item">
                 <div class="tip">
