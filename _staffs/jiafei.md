@@ -59,13 +59,13 @@ position: 财务总监
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="https://img2.imgtp.com/2024/05/30/KoiELhEX.jpg" alt="First slide">
+            <img src="assets/images/花心1.jpg" alt="First slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/FLT409vU.jpg" alt="Second slide">
+            <img src="assets/images/花心2.jpg" alt="Second slide">
         </div>
         <div class="item">
-            <img src="https://img2.imgtp.com/2024/05/30/Q6J4e5dA.jpg" alt="Third slide">
+            <img src="assets/images/花心3.jpg" alt="Third slide">
         </div>
     </div>
     <!-- 轮播（Carousel）导航 -->
