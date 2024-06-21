@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p>
+  {{ page.date | date_to_string }}
+  {% assign productor = site.productors | where: 'name', page.productor | first %}
+  {% if productor %}
+    - <a href="{{ productor.url }}">{{ productor.name }}</a>
+  {% endif %}
+</p>
+
+{{ content }}

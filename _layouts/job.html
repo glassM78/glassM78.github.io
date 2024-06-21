@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+
+<h2>岗位信息</h2>
+{{ content }}
+
+
+<ul>
+  {% for job in site.jobs %}
+    {% if job.employment %}
+      <li><a href="{{ job.url }}">{{ job.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+<h2>{{ page.position }}</h2>
+
+{{ content }}
+
+<ul>
+  {% assign filtered_cultures = site.cultures | where: 'staff', page.short_name %}
+  {% for culture in filtered_cultures %}
+    <li><a href="{{ culture.url }}">{{ culture.title }}</a></li>
+  {% endfor %}
+</ul>
