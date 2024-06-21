@@ -1,0 +1,22 @@
+---
+layout: default
+title: 员工
+---
+<head>
+	<meta charset="utf-8">
+	<title>Bootstrap 实例 - 图像</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<img src="https://img2.imgtp.com/2024/05/30/fAM6jPMO.jpg" class="img-rounded" style="width:1500px; text-align:center;" />
+<h1 style="text-align: center;">员工</h1>
+<ul>
+    {% for staff in site.staffs %}
+      <li>
+        <h2><a href="{{ staff.url }}">{{ staff.name }}</a></h2>
+        <h3>{{ staff.position }}</h3>
+        <p>{{ staff.content | markdownify }}</p>
+      </li>
+    {% endfor %}
+  </ul>
