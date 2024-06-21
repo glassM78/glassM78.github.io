@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<style>
+    body {
+        background-image: url('assets/images/联系方式.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* 确保背景图片不随页面滚动而移动 */
+        background-size: cover; /* 使背景图片覆盖整个屏幕 */
+    }
+
+    h1, h2, h3 {
+        color: #333;
+    }
+
+    .content-section {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 1); /* 更改透明度为0.8 */
+        margin-bottom: 10px;
+        border-radius: 5px;
+        display: none; /* 初始隐藏所有内容 */
+    }
+
+    .tag {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #ffffff00;
+        color: rgb(13, 13, 13);
+        border-radius: 5px;
+    }
+    li {
+			background: rgba(255, 255, 255, 0.9); /* 白色背景，略微透明 */
+			margin: 15px 0;
+			padding: 20px;
+			border-radius: 10px;
+			text-align: left;
+			transition: transform 0.2s, background 0.3s;
+		} 
+</style>
+<head>
+    <meta charset="utf-8">
+    <title>联系方式</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* 自定义当前页面链接的样式 */  
+        .navbar-nav .current {  
+            background-color: #ffffff; /* 或您想要的任何颜色 */  
+            color: #333; /* 或您想要的任何字体颜色 */  
+        }
+        li {
+			background: rgba(255, 255, 255, 0.9); /* 白色背景，略微透明 */
+			margin: 15px 0;
+			padding: 20px;
+			border-radius: 10px;
+			text-align: left;
+			transition: transform 0.2s, background 0.3s;
+		} 
+    </style>
+</head>
+<body>
+  
+<nav class="navbar navbar-default" role="navigation">  
+    <div class="container-fluid">  
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
+            <ul class="nav navbar-nav">  
+                <li>  
+                    <a href="/">哥拉斯主页</a>  
+                </li>  
+                <li>  
+                    <a href="/index1.html">关于我们</a>  
+                </li>  
+                <li class="dropdown active">  
+                    <a href="#" class="dropdown-toggle current" data-toggle="dropdown">联系方式 <b class="caret"></b></a>  
+                    <ul class="dropdown-menu">  
+                        <li><a href="#" onclick="showContent('address')">公司地址</a></li>  
+                        <li><a href="#" onclick="showContent('phone')">电话</a></li>  
+                        <li><a href="#" onclick="showContent('email')">电子邮件</a></li>  
+                    </ul>  
+                </li>  
+                <li>  
+                    <a href="/chanpin.html">产品介绍</a>  
+                </li>  
+                <li>  
+                    <a href="/changjia.html">厂家</a>  
+                </li>  
+                <li>  
+                    <a href="/wenhua.html">企业文化</a>  
+                </li>  
+                <li>  
+                    <a href="/yuangong.html">员工</a>  
+                </li>  
+                <li class="dropdown active">
+                    <a href="/zhaopin.html">招聘信息 </a>
+                </li> 
+
+                <li >  
+					<a href="/gangwei.html" >岗位</a>  
+				</li>  
+            </ul>  
+        </div>  
+    </div>  
+</nav>  
+  
+<div class="container">
+    <h1 style="text-align: center;"><span class="tag">点击上方菜单，查看我们的联系方式</span></h1>
+
+    <div id="address" class="content-section">
+        <h2><span class="tag">公司地址: M78星云</span></h2>
+    </div>
+
+    <div id="phone" class="content-section">
+        <h2><span class="tag">电话: APTX4869</span></h2>
+    </div>
+
+    <div id="email" class="content-section">
+        <h2><span class="tag">电子邮件: bbzmlgzxy001@balala</span></h2>
+    </div>
+</div>
+
+<script>
+    function showContent(id){
+        // 先隐藏所有内容
+        document.querySelectorAll('.content-section').forEach(function(section){
+            section.style.display = 'none';
+        });
+        // 显示点击的内容
+        document.getElementById(id).style.display = 'block';
+    }
+</script>
+
+</body>
+</html>

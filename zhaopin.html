@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>招聘信息</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-image: url('assets/images/招聘信息.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .navbar-nav .current {  
+            background-color: #e7e7e7;
+            color: #333;
+        }
+        li {
+			background: rgba(255, 255, 255, 0.9); /* 白色背景，略微透明 */
+			margin: 15px 0;
+			padding: 20px;
+			border-radius: 10px;
+			text-align: left;
+			transition: transform 0.2s, background 0.3s;
+		} 
+        .content-section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .hidden {
+            display: none;
+        }
+        .table th, .table td {
+            text-align: center; /* 使表格内容居中 */
+            vertical-align: middle; /* 使表格内容垂直居中 */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">  
+    <div class="container-fluid">  
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
+            <ul class="nav navbar-nav">  
+                <li><a href="/">哥拉斯主页</a></li>
+                <li><a href="/index1.html">关于我们</a></li>
+                <li class="dropdown">
+                    <a href="/index2.html">联系方式</a>
+                </li>
+                <li><a href="/chanpin.html">产品介绍</a></li>
+                <li><a href="/changjia.html">厂家</a></li>
+                <li><a href="/wenhua.html">企业文化</a></li>
+                <li><a href="/yuangong.html">员工</a></li>
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle current" data-toggle="dropdown">招聘信息 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/employments/2024-05-16-%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86.html">产品经理</a></li>
+                        <li><a href="/employments/2024-05-16-%e5%88%9b%e6%84%8f%e8%ae%be%e8%ae%a1%e5%b8%88.html">创意设计师</a></li>
+                        <li><a href="/employments/2024-05-16-%e5%ae%a2%e6%88%b7%e5%85%b3%e7%b3%bb%e7%bb%8f%e7%90%86.html">客户关系经理</a></li>
+                        <li><a href="/employments/2024-05-16-%e5%b8%82%e5%9c%ba%e8%90%a5%e9%94%80%e7%bb%8f%e7%90%86.html">市场营销经理</a></li>
+                        <li><a href="/employments/2024-05-16-%e9%94%80%e5%94%ae%e7%bb%8f%e7%90%86.html">销售经理</a></li>
+                    </ul>
+                </li>
+                <li >  
+                  <a href="/gangwei.html" >岗位</a>  
+                </li>  
+            </ul>  
+        </div>  
+    </div>  
+</nav>  
+
+<div class="container">
+    <h1>快来加入我们开心大家庭吧</h1>
+    <table class="table">
+        <caption>长期招聘岗位及地区</caption>
+        <thead>
+            <tr>
+                <th>岗位</th>
+                <th>城市</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>创意设计师</td>
+                <td>M78星云</td>
+            </tr>
+            <tr>
+                <td>销售</td>
+                <td>M78星云</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 折叠面板已经不再是必须的内容，可以选择删除-->
+    <div class="panel-group hidden" id="accordion">
+        <!-- 示例折叠面板-->
+        <div class="panel panel-default" id="job_product">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseProduct">产品经理</a>
+                </h4>
+            </div>
+            <div id="collapseProduct" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <h2><a href="/employments/2024-05-16-%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86.html">产品经理</a></h2>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 可删除其他的内容示例-->
+    </div>
+
+    <div class="content-section hidden" id="address">
+        <h2>公司地址: M78星云</h2>
+    </div>
+
+    <div class="content-section hidden" id="phone">
+        <h2>电话: APTX4869</h2>
+    </div>
+
+    <div class="content-section hidden" id="email">
+        <h2>电子邮件: bbzmlgzxy001@balala</h2>
+    </div>
+</div>
+
+<script>
+    function showContent(id){
+        // 先隐藏所有内容
+        document.querySelectorAll('.content-section').forEach(function(section){
+            section.style.display = 'none';
+        });
+        // 显示点击的内容
+        document.getElementById(id).style.display = 'block';
+        document.getElementById(id).classList.remove('hidden');
+    }
+</script>
+
+</body>
+</html>
